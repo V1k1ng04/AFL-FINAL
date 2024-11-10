@@ -25,7 +25,7 @@ recorder = Recorder(args)
 Summary(args)
 
 # logs
-wandb.init(project="AFL", entity="satvikrajeshnew")  
+wandb.init(project="ASYNC", entity="satvikrajeshnew")  
 config = wandb.config
 config.communications_round = args.R
 config.max_lost = args.max_lost
