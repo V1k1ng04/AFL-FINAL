@@ -32,7 +32,7 @@ Select_node = Select_Node(args)
 timerStart = time.time()
 
 # train
-for rounds in range(int(args.drop * args.R * args.node_num)): 
+for rounds in range(args.R): 
     print('===============The {:d}-th round==============='.format(rounds + 1))
     LR_scheduler(rounds, Edge_nodes, args)
     k = Select_node.random_select()
