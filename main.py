@@ -22,7 +22,7 @@ Summary(args)
 
 
 # logs
-wandb.init(project="AFL", entity="satvikrajeshnew")  # 搜一下 wandb的使用方法，entity后填你的用户名
+wandb.init(project="ASYNC", entity="satvikrajeshnew")  # 搜一下 wandb的使用方法，entity后填你的用户名
 config = wandb.config
 config.communications_round = args.R
 config.max_lost = args.max_lost
