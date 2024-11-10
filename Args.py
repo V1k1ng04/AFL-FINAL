@@ -21,7 +21,7 @@ def args_parser():
                         help='The difference in the number of communication rounds between the fastest and slowest nodes ')
     parser.add_argument('--warmup', type=int, default=0,
                         help='The number of warmup')
-    parser.add_argument('--mu', type=float, default=0.5,
+    parser.add_argument('--mu', type=float, default=0.1,
                         help='Degree of non-iid')
                         
 
